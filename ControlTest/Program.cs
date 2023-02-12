@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-using ControlTest;
+﻿using ControlTest;
 
 Console.WriteLine("Hello, World!2.0");
 Console.WriteLine("");

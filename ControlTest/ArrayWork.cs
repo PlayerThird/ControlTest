@@ -18,8 +18,6 @@ namespace ControlTest
             for (int i = 0; i < arrOne.GetLength(0); i++)
             {
 
-
-
                 if (arrOne[i].Length < 4)
                 {
                     foreach (var item in arrOne[i])
@@ -29,11 +27,10 @@ namespace ControlTest
                     j++;
                 }
                 
-
-                
             }
             return arrTwo;
         }
+        //Печать массива типа string
         internal static void PrintMass(string text, string[] mass)
         {
             Console.Write(text + " ");
